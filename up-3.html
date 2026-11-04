@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>إضاءات سقف دائرية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .main {
+            gap: 30px;
+            padding: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo"><a href="index.html"><img src="img/logo/m-logo.png" alt=""></a></div>
+
+<div class="search-container">
+    <input type="text" placeholder="ابحث عن منتج..." />
+    <i class="fas fa-search search-icon"></i>
+</div>
+
+    <div class="right-section">
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" title="facebook"><img class="icooon" src="img/icon/facebook.png" alt=""></a>
+            <a href="https://instagram.com" target="_blank" title="instagram"><img class="icooon" src="img/icon/instagram.png" alt=""></a>
+            <a href="index.html" target="_blank" title="home"><img class="icooon iconhome" src="img/icon/circle_14025056.png" alt=""></a>
+    </div>
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+    </div>
+</div>
+
+
+<div class="sub-navbar">
+    <ul class="sub-navbar-list">
+        <li><a href="index.html">الصفحة الرئيسية</a></li>
+        <li><a href="si.html">إضاءات جدارية</a></li>
+        <li><a href="up.html">إضاءات سقف</a></li>
+        <li><a href="in.html">إضاءات مخفية</a></li>
+    </ul>
+</div>
+
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+    <h3>التصنيفات</h3>
+    <ul class="sidebar-menu">
+        <li class="dropdown">
+            <span onclick="toggleDropdown(this)">إضاءات جدارية <i class="fas fa-angle-down"></i></span>
+            <ul class="submenu">
+                <li><a href="si-1.html">أشكال</a></li>
+                <li><a href="si-2.html">طولية</a></li>
+                <li><a href="si-3.html">دائرية</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <span onclick="toggleDropdown(this)">إضاءات سقف <i class="fas fa-angle-down"></i></span>
+            <ul class="submenu">
+                <li><a href="up-1.html">أشكال</a></li>
+                <li><a href="up-2.html">طولية</a></li>
+                <li><a href="up-3.html">دائرية</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <span onclick="toggleDropdown(this)">إضاءات مخفية <i class="fas fa-angle-down"></i></span>
+            <ul class="submenu">
+                <li><a href="in-1.html">أشكال</a></li>
+                <li><a href="in-2.html">طولية</a></li>
+                <li><a href="in-3.html">دائرية</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+
+    <main class="main">
+
+        <div class="section-header">
+            <h3>( دائرية )</h3>
+            <h2>إضاءات سقف مودرن</h2>
+            <p>إضاءة سقف بتصميم عصري أنيق، تضيف لمسة جمالية ومريحة لأي مساحة في منزلك أو مكتبك.</p>
+        </div>
+
+
+
+        <div class="product">
+            <img src="img/qq/up/e.jpg" alt="">
+            <h4>إضاءة جدارية مودرن</h4>
+            <p>إضاءة جدارية بتصميم عصري أنيق، تضيف لمسة جمالية ومريحة لأي مساحة في منزلك أو مكتبك.</p>
+            <button class="product-btn"><a href="pro-5up.html">عرض تفاصيل</a></button>
+        </div>
+        <div class="product">
+            <img src="img/qq/up/k.jpg" alt="">
+            <h4>إضاءة سقف مودرن</h4>
+            <p>إضاءة سقف بتصميم عصري أنيق، تضيف لمسة جمالية ومريحة لأي مساحة في منزلك أو مكتبك.</p>
+            <button class="product-btn"><a href="pro-11up.html">عرض تفاصيل</a></button>
+        </div>
+        <div class="product">
+            <img src="img/qq/up/l.jpg" alt="">
+            <h4>إضاءة جدارية مودرن</h4>
+            <p>إضاءة جدارية بتصميم عصري أنيق، تضيف لمسة جمالية ومريحة لأي مساحة في منزلك أو مكتبك.</p>
+            <button class="product-btn"><a href="pro-12up.html">عرض تفاصيل</a></button>
+        </div>
+    </main>
+    </div>
+
+
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>عن المتجر</h4>
+            <p>متجر Lumi Decor يوفر لك منتجات مختارة بعناية لتناسب جميع الأذواق والاحتياجات.</p>
+        </div>
+        <div class="footer-section">
+            <h4>روابط سريعة</h4>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>تابعنا</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>جميع الحقوق محفوظة &copy; 2025 متجر Lumi Decor</p>
+    </div>
+</footer>
+
+
+
+<script>
+    function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("show");
+    }
+
+    function toggleDropdown(element) {
+    element.parentElement.classList.toggle('active');
+}
+
+</script>
+
+</body>
+</html>
